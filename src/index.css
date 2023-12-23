@@ -42,3 +42,9 @@ input {
   object-fit: cover;
   border: 4px solid whitesmoke;
 }
+
+.output{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
