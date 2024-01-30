@@ -7,7 +7,7 @@ function App() {
 
   const fetchImages = () => {
     fetch(
-      `https://api.unsplash.com/search/photos/?client_id=_-3c9DmqjLkglthRIse_XRCzccJVHVOaYmPWPkf6KRw&query=${value}&per_page=40`
+      `https://api.unsplash.com/search/photos/?client_id=_-3c9DmqjLkglthRIse_XRCzccJVHVOaYmPWPkf6KRw&query=${value}&per_page=20`
     )
       .then((res) => res.json())
       .then((data) => {
